@@ -36,13 +36,14 @@ Or add it directly through Xcode:
 
 ### Basic Implementation
 
-swift
+```swift
 import SwiftUI
 import CameraOverlayLibrary
+
 struct ContentView: View {
-var body: some View {
-CameraOverlayLibrary.createCameraView()
-}
+    var body: some View {
+        CameraOverlayLibrary.createCameraView()
+    }
 }
 
 ### Features Included
@@ -56,7 +57,7 @@ CameraOverlayLibrary.createCameraView()
 
 The library automatically handles camera and photo library permissions. Make sure to include these keys in your Info.plist:
 
-xml
+```xml
 <key>NSCameraUsageDescription</key>
 <string>This app needs access to camera to take photos.</string>
 <key>NSPhotoLibraryUsageDescription</key>
