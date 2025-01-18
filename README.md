@@ -23,7 +23,7 @@ A Swift package that provides an easy-to-use camera interface with overlay capab
 
 Add the following dependency to your `Package.swift` file:swift
 dependencies: [
-.package(url: "YOUR_REPOSITORY_URL", from: "1.0.0")
+.package(url: "[REPOSITORY_URL](https://github.com/theprakharsaxena/CameraOverlayLibrary)", from: "1.0.0")
 ]
 
 Or add it directly through Xcode:
