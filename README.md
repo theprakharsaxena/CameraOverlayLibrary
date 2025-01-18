@@ -44,7 +44,8 @@ struct ContentView: View {
     var body: some View {
         CameraOverlayLibrary.createCameraView()
     }
-}```
+}
+```
 
 ### Features Included
 
@@ -61,7 +62,8 @@ The library automatically handles camera and photo library permissions. Make sur
 <key>NSCameraUsageDescription</key>
 <string>This app needs access to camera to take photos.</string>
 <key>NSPhotoLibraryUsageDescription</key>
-<string>This app needs access to photo library to save photos.</string>```
+<string>This app needs access to photo library to save photos.</string>
+```
 
 ## License
 
